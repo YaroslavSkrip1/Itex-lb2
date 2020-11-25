@@ -1,0 +1,76 @@
+body, h1,h2,h3,p,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white ;
+    padding: 25px 0;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: greenyellow;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    color:black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.product-list h1{
+    text-align: center;
+}
+.product-list li{
+    margin-left: 20px;
+}
+header p{
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.product-list{
+    background-color:rgb(22, 222, 236);
+    width: 25%;
+    position: relative;
+    margin: 0 center;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    color: black;
+    padding: 25px;
+}
+.product-list li{
+    list-style: none;
+    background-image: url('https://lh3.googleusercontent.com/proxy/pJonEMhdbwYMFdlmDQdO_oPXcld_jTlkq0wQxW5FHsB4WTkfYyLaEpzjn-EbbINsWe-LJsLawJgk5PypwC1AFoTxRuau8F4bH6XGyzwDmWmkVvwlAjpmXdDDQcfkBWvwZ4w');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 5px 0 5px 25px;
+}
+.flex-container {
+    background-color: yellow;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 25px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex-container div{
+    background-color: orange;
+    width: 25%;
+    margin: 5px 5px 10px 5px;
+    border-radius: 25px;
+}
+.first-box{
+    height: 150px;
+}
+.second-box{
+    height: 300px;
+}
+.float-box{
+float:left;
+}
